@@ -1,0 +1,42 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.cur-pointer{
+    cursor: pointer;
+}
+.jus-spbr{
+    justify-content: space-between;
+}
+.jus-spar{
+    justify-content: space-around;
+}
+.pad-10{
+    padding: 10px;
+}
+.pad-15{
+    padding: 15px;
+}
+.hidden{
+    display: none;
+}
+.hr {
+    display: flex;
+    width: 92%;
+    justify-content: center;
+    height: 0.1em;
+    background-color: #6d6d6d;
+    border: none;
+}

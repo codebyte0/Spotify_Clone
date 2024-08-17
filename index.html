@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilityclasses.css">
+    <link rel="stylesheet" href="colorcode.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="bar1">
+                <div class="flex logo-bar">
+                    <div class="logo cur-pointer"><img class="invert" src="images/logo.svg"></div>
+                </div>
+
+                <div class="icon-1 flex jus-center a-center cur-pointer ">
+                    <img src="images/home-icon1.svg">
+                    <span>Home</span>
+                </div>
+
+                <div class="icon-2 flex jus-center a-center cur-pointer">
+                    <img src="images/search-icon1.svg">
+                    <span>Search</span>
+                </div>
+            </div>
+            <div class="bar2">
+                <div class="lib-pannel flex jus-center a-center">
+                    <div class="lib-logo invert cur-pointer"><img src="images/library-logo.svg"></div>
+                    <div class="lib-pannel-text cur-pointer ">Your Library</div>
+                    <div class="pannel-addicon p-icon1 invert cur-pointer"><img src="images/back-icon.svg"></div>
+                    <div class="pannel-addicon p-icon2 invert cur-pointer"><img src="images/add-icon.svg"></div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="msg-card flex hidden">
+                        <h3>Create your first playlist</h3>
+                        <p>It's easy, we'll help you</p>
+                        <div><button class="btn lib-btn">Create playlist</button></div>
+                    </div>
+                    <div class="msg-card flex hidden">
+                        <h3>Let's find some podcast to follow</h3>
+                        <p>We'll keep you updated on new episodes.</p>
+                        <div><button class="btn lib-btn">Browse podcasts</button></div>
+                    </div>
+                </div>
+
+                <div class="footer-content hidden">
+                    <div class="footer-area flex jus-center a-center cur-pointer ">
+                        <footer>
+                            <span>Legal</span>
+                            <span>Privacy center</span>
+                            <span>Privacy policy</span>
+                            <span>Cookies</span>
+                            <span>About ads</span>
+                            <span>Accessibility</span>
+                            <span>Cookies</span>
+                        </footer>
+                    </div>
+                    <div class="f-button cur-pointer">
+                        <button class="btn f-btn flex jus-center a-center"><img src="images/lang-icon.svg">
+                            English</button>
+                    </div>
+                </div>
+
+                <div class="songs-list-container">
+                    <div class="songs-list-content flex">
+                        <div class="songs-list-buttons">
+                            <button class="btn sl-button1">Playlists</button>
+                            <button class="btn sl-button2">Artists</button>
+                        </div>
+                        <div class="scroll-container-playlist">
+                            <div class="songs-list-icons flex jus-spbr">
+                                <div class="sl-icon1 cur-pointer"><img src="images/search-icon1.svg"></div>
+                                <div class="sl-icon2 flex a-center jus-center cur-pointer">
+                                    <div class="icon-text">Recent</div><img src="images/list.svg">
+                                </div>
+                            </div>
+                            <div class="songs-list flex jus-center a-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------- Left completed ------ -->
+
+        <!-- --------Right start-------- -->
+
+        <div class="right">
+            <div class="right-content">
+                <!-- -Navbar start- -->
+                <div class="navbar flex jus-center a-center">
+
+                    <div class="nav-icons flex jus-center a-center cur-pointer">
+                        <div class="n-img1">
+                            <img src="images/right-arr.svg">
+                        </div>
+                        <div class="n-img2">
+                            <img src="images/left-arr.svg">
+                        </div>
+                    </div>
+
+                    <div class="nav-buttons flex jus-center a-center">
+                        <button class="n-button1 cur-pointer">Sign up</button>
+                        <button class="n-button2 cur-pointer">Log in</button>
+                    </div>
+                </div>
+
+                <!-- -Navbar end-  -->
+
+                <!-- -Playlist content start-  -->
+                <div class="playlist-content">
+
+                    <div class="playlist-panel flex a-center jus-spbr">
+                        <h2>Spotify Playlists</h2>
+                        <span class="cur-pointer">Show all</span>
+                    </div>
+
+                    <div class="cards-container flex jus-center a-center">
+
+                    </div>
+
+                    <!-- 2nd card container start  -->
+
+                    <div class="playlist-panel flex a-center">
+                        <h2>Sleep</h2>
+                    </div>
+
+                    <div class="cards-container">
+                        <div class="p-card p-card5 flex a-center jus-center cur-pointer">
+                            <div class="card-img"><img src="images/playlist pics/pic1.jpg"></div>
+                            <div class="card-content">
+                                <h3>Today's Top Hits</h3>
+                                <p>Teddy Swims is on top of the Hottest 50!</p>
+                            </div>
+                            <div class="play-button"><img src="images/playbutton.svg"></div>
+                        </div>
+                        <div class="p-card p-card6 flex a-center jus-center cur-pointer">
+                            <div class="card-img"><img src="images/playlist pics/pic7.jpeg"></div>
+                            <div class="card-content">
+                                <h3>Today's Top Hits</h3>
+                                <p>Teddy Swims is on top of the Hottest 50!</p>
+                            </div>
+                            <div class="play-button"><img src="images/playbutton.svg"></div>
+                        </div>
+                    </div>
+                    <!-- 2nd card conatiner end  -->
+
+                </div>
+
+                <div class="right-footer flex  ">
+                    <div class="footer-textpart">
+                        <div class="t-part1">
+                            <span class="t-part-head">Company</span>
+                            <span>About</span>
+                            <span>Jobs</span>
+                            <span>For the Record</span>
+
+                        </div>
+                        <div class="t-part2">
+
+                            <span class="t-part-head">Communities</span>
+                            <span>For Artists</span>
+                            <span>Developer</span>
+                            <span>Advertising</span>
+                            <span>Investors</span>
+                            <span>Vendors</span>
+
+                        </div>
+                        <div class="t-part3">
+                            <span class="t-part-head">Useful links</span>
+                            <span>Support</span>
+                            <span>Free Mobile app</span>
+
+                        </div>
+
+                    </div>
+                    <div class="footer-iconspart flex">
+                        <div class="f-icon01 cur-pointer"><img src="images/insta.svg"></div>
+                        <div class="f-icon02 cur-pointer "><img src="images/twiiter.svg"></div>
+                        <div class="f-icon03 cur-pointer "><img src="images/facebook.svg"></div>
+                    </div>
+                </div>
+
+                <hr class="hr">
+                <div class="c-right">&copy; 2024 Spotify AB</div>
+
+            </div>
+        </div>
+
+        <div class="playbar-container flex jus-center a-center ">
+            <div class="button-container">
+                <div class="info-part1 flex jus-center a-center  cur-pointer">
+                </div>
+
+                <div class="buttons-part2 flex jus-center a-center cur-pointer">
+                    <div class="play-back cur-pointer invert "><img src="images/playback.svg"></div>
+                    <div class="play cur-pointer invert "><img src="images/play.svg"></div>
+                    <div class="play-next cur-pointer invert"><img src="images/playnext.svg"></div>
+                </div>
+
+                <div class="other3 flex jus-center a-center">
+
+                    <div class="stuff-part3 flex jus-center a-center cur-pointer"></div>
+
+                    <div class="volume-icon flex jus-center a-center">
+                        <span class="material-symbols-outlined jus-center a-center cur-pointer" id="volumeIcon">
+                            volume_up
+                        </span>
+                        <div class="volume-up-btn"></div>
+                        <div class="volume-down-btn"></div>
+                        <input type="range" class="volume-bar" id="volumeBar" min="0" max="100" step="1">
+                    </div>
+                    
+                </div>
+
+
+            </div>
+            <!-- button container end -->
+
+
+            <div class="seekbar cur-pointer ">
+                <div class="circle move-right ">&nbsp;</div>
+            </div>
+        </div>
+
+        <div class="hum-menu cur-pointer">
+            <img class="hamburger-icon" src="images/humberger.svg">
+        </div>
+    </div>
+    <!-- ----------  Container end  ----------  -->
+
+    <script src="script.js"></script>
+    <script>
+        let lib_btn = document.querySelector(".lib-btn");
+        let p_icon2 = document.querySelector(".p-icon2");
+
+        lib_btn.addEventListener("click", () => {
+            hide(".footer-content");
+            hide(".msg-card");
+            show(".songs-list-container")
+        });
+        p_icon2.addEventListener("click", () => {
+            hide(".footer-content");
+            hide(".msg-card");
+            show(".songs-list-container")
+        });
+
+        function hide(selector) {
+            let elements = document.querySelectorAll(selector);
+            elements.forEach(element => {
+                element.classList.add("hidden");
+            });
+        }
+
+        let picon1 = document.querySelector('.p-icon1');
+        let libbox = document.querySelector(".lib-box");
+
+        picon1.addEventListener("click", () => {
+            show(".footer-content");
+            show(".msg-card");
+            hide(".songs-list-container")
+        });
+
+        function show(selector) {
+            let elements = document.querySelectorAll(selector);
+            elements.forEach(element => {
+                element.classList.remove("hidden");
+            });
+        }
+
+        // humberger menu 
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburgerButton = document.querySelector('.hum-menu');
+            const content = document.querySelector('.left');
+            const icon = document.querySelector('.hamburger-icon');
+
+            hamburgerButton.addEventListener('click', function () {
+                content.classList.toggle('left-go');
+                icon.classList.toggle('icon-move');
+            });
+
+        });
+    </script>
+</body>
+</html>
